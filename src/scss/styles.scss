@@ -23,6 +23,10 @@
 // Import partials:
 
 // Custom styles:
+a:hover {
+  text-decoration: underline;
+}
+
 #jumbotron {
   background-image: url(../img/pirate-ship.jpg);
   background-repeat: no-repeat;
@@ -34,14 +38,6 @@
 
 .site-footer {
   background: rgb(63, 195, 144);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:link {
-  text-decoration: none;
 }
 
 a:visited {
